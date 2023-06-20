@@ -29,7 +29,7 @@ EX:
     PortScanner.py -H domain.com -p 80,443,21,22
 
 To Scan the target with all ports:
-    dnsrecord.py -H domain.com -p ALL  
+    PortScanner.py -H domain.com -p ALL  
 """)
 
 parser.add_option("-H", dest = "host", type = "string", help = "Your Domain")
