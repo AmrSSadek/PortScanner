@@ -10,3 +10,9 @@ Is simple tool used for Port Scanning Hosts.
   To Scan the target with all ports:
 
     python3 PortScanner.py -H domain.com -p ALL 
+
+
+ ### Requirements
+    - nmap
+        python3 -m pip install nmap
+    - socket
