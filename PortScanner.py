@@ -21,8 +21,8 @@ parser = OptionParser("""
                                                     
 script.py [option]
 --------------------
--d 	     :: Set Your Specific Target.
--p       :: Set The Ports number.
+-d 	:: Set Your Specific Target.
+-p	:: Set The Ports number.
 
 EX:
     PortScanner.py -H domain.com -p 80
